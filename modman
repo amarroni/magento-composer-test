@@ -5,8 +5,8 @@ app/etc/modules/Arvato_Website.xml				app/etc/modules/Arvato_Website.xml
 
 @shell		mkdir -p "$PROJECT/en-GB"
 @shell		mkdir -p "$PROJECT/fr-FR"
-@shell		mkdir -p "$PROJECT/es-ES"
+@shell          mkdir -p "$PROJECT/es-AR"
 
 en-GB/index.php                                 en-GB/index.php
 fr-FR/index.php                                 fr-FR/index.php
-es-ES/index.php                                 es-ES/index.php
+es-AR/index.php                                 es-AR/index.php
