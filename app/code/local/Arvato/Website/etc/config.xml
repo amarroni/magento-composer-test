@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Arvato_Website>
+            <version>0.1.9.1</version>
+        </Arvato_Website>
+    </modules>
+    <global>
+        <models>
+            <arvato_website>
+                <class>Arvato_Website_Model</class>
+                <resourceModel>arvato_website_resource</resourceModel>
+            </arvato_website>
+            <arvato_website_resource>
+                <class>Arvato_Website_Model_Resource</class>
+            </arvato_website_resource>
+        </models>
+        <blocks>
+            <arvato_website>
+                <class>Arvato_Website_Block</class>
+            </arvato_website>
+        </blocks>
+        <helpers>
+            <arvato_website>
+                <class>Arvato_Website_Helper</class>
+            </arvato_website>
+        </helpers>
+        <resources>
+            <arvato_website_setup>
+                <setup>
+                    <module>Arvato_Website</module>
+                </setup>
+            </arvato_website_setup>
+        </resources>
+    </global>
+</config>
