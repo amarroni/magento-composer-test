@@ -22,9 +22,10 @@ app/code/core/
 app/code/local/AM
 app/code/local/Uandi
 app/code/local/Aschroder
-app/code/local/Arvato/**
+app/code/local/Arvato/*
 #Add Only here all the Custom Funai Modules
 !app/code/local/Arvato/Website
+
 
 #Excluding app/design files unless Funai Modules
 app/design/install
@@ -40,7 +41,7 @@ app/design/frontend/arvato_basis/default
 #Excluding etc/modules files unless Funai Modules
 app/etc/*.*
 app/etc/healthcheck
-app/etc/modules/**
+app/etc/modules/*
 !app/etc/modules/Arvato_Website.xml
 
 #Excluding app/locale files unless Funai Modules
