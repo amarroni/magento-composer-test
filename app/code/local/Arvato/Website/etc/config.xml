@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Arvato_Website>
-            <version>0.1.9.1</version>
+            <version>0.1.9</version>
         </Arvato_Website>
     </modules>
     <global>

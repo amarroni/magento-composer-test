@@ -1,7 +1,10 @@
 #Ignoring General folders and Files
 /*.*
-/mage
 !.gitignore
+!README.md
+!modman
+
+/mage
 /downloader/
 /errors/
 /includes/
@@ -46,3 +49,12 @@ app/etc/modules/*
 
 #Excluding app/locale files unless Funai Modules
 app/locale
+
+#Excluding skin files unless Funai Modules
+skin/install
+skin/adminhtml
+skin/frontend/base/
+skin/frontend/enterprise/
+skin/frontend/rwd/
+skin/frontend/arvato_basis/*
+!skin/frontend/arvato_basis/funai
