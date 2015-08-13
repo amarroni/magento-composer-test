@@ -1,0 +1,10 @@
+# Arvato Funai Code
+app/code/local/Arvato/Website					app/code/local/Arvato/Website
+app/etc/modules/Arvato_Website.xml				app/etc/modules/Arvato_Website.xml
+
+
+@shell		mkdir -p "$PROJECT/en-GB"
+@shell		mkdir -p "$PROJECT/fr-FR"
+
+en-GB/index.php                                 en-GB/index.php
+fr-FR/index.php                                 fr-FR/index.php
