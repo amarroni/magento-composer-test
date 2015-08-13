@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Arvato_Website>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Arvato_Website>
+    </modules>
+</config>

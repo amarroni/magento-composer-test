@@ -1,0 +1,47 @@
+#Ignoring General folders and Files
+/*.*
+/mage
+!.gitignore
+/downloader/
+/errors/
+/includes/
+/media/
+/pkginfo/
+/shell/
+/var/
+
+#js, lib in the near future maybe we adding something here
+/js
+/lib
+
+app/*.*
+app/code/community/
+app/code/core/
+
+# is needed to add all no Arvato Folder to this list
+app/code/local/AM
+app/code/local/Uandi
+app/code/local/Aschroder
+app/code/local/Arvato/**
+#Add Only here all the Custom Funai Modules
+!app/code/local/Arvato/Website
+
+#Excluding app/design files unless Funai Modules
+app/design/install
+app/design/adminhtml
+app/design/frontend/rwd
+app/design/frontend/enterprise
+app/design/frontend/base
+app/design/frontend/arvato_basis/blank
+app/design/frontend/arvato_basis/default
+!app/design/frontend/arvato_basis/funai
+
+
+#Excluding etc/modules files unless Funai Modules
+app/etc/*.*
+app/etc/healthcheck
+app/etc/modules/**
+!app/etc/modules/Arvato_Website.xml
+
+#Excluding app/locale files unless Funai Modules
+app/locale
